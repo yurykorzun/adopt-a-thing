@@ -1,7 +1,10 @@
 development: &DEVELOPMENT
   adapter: postgresql
-  database: adopt_a_thing_development
-  host: localhost
+  database: d74o2itq65cpvh:5432
+  host: ec2-54-83-205-164.compute-1.amazonaws.com
+  username: mwnratwegulqeu
+  password: ybRfZVpTqU5wRrSRqT3nTMjdXs
+
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
