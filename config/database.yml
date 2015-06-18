@@ -1,10 +1,11 @@
 development: &DEVELOPMENT
-  adapter: postgresql
-  database: d74o2itq65cpvh:5432
   host: ec2-54-83-205-164.compute-1.amazonaws.com
-  username: mwnratwegulqeu
+  database: d74o2itq65cpvh
+  user: mwnratwegulqeu
+  port: 5432
   password: ybRfZVpTqU5wRrSRqT3nTMjdXs
-
+  psql: heroku pg:psql --app young-caverns-3573 DATABASE
+  url: postgres://mwnratwegulqeu:ybRfZVpTqU5wRrSRqT3nTMjdXs@ec2-54-83-205-164.compute-1.amazonaws.com:5432/d74o2itq65cpvh
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
